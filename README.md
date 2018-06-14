@@ -17,3 +17,6 @@ FrigoShare is an [Android application](https://play.google.com/store/apps/detail
 ## Dependencies
 * [socialauth](https://github.com/3pillarlabs/socialauth) [[MIT License](https://github.com/3pillarlabs/socialauth/blob/master/LICENSE)]
 * [socialauth-android](https://github.com/3pillarlabs/socialauth-android) [[MIT License](https://github.com/3pillarlabs/socialauth-android/blob/master/LICENSE)]
+
+## Privacy Policy
+* [FrigoShare](https://matt77hias.github.io/FrigoShare/)
