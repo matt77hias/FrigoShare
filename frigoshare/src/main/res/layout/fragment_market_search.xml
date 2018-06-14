@@ -1,0 +1,8 @@
+<ExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expandleResultView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82D8EF"
+    android:groupIndicator="@null"
+    tools:context="com.frigoshare.MarketSearchActivity"></ExpandableListView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+   <servlet>
+        <servlet-name>SystemServiceServlet</servlet-name>
+        <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+        <init-param>
+            <param-name>services</param-name>
+            <param-value>
+                com.frigoshare.endpoints.LeftoverEndpoint,
+                com.frigoshare.endpoints.UserEndpoint
+            </param-value>
+        </init-param>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ClaimWorker</servlet-name>
+        <servlet-class>com.frigoshare.worker.ClaimWorker</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClaimWorker</servlet-name>
+        <url-pattern>/claimworker</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SystemServiceServlet</servlet-name>
+        <url-pattern>/_ah/spi/*</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>

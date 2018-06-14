@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/VerticalLinearLayout"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/offer_detail_titleCategory"
+            style="@style/titleText"
+            android:text="@string/offer_title_category" />
+
+        <Spinner
+            android:id="@+id/offer_spinner_category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+
+        <TextView
+            android:id="@+id/offer_detail_titleTitle"
+            style="@style/titleText"
+            android:text="@string/offer_title_name" />
+
+        <EditText
+            android:id="@+id/offer_detail_title"
+            style="@style/editableText"
+            android:layout_marginBottom="14dp"
+            android:hint="@string/offer_hint_title" />
+
+        <TextView
+            android:id="@+id/offer_detail_titleDescription"
+            style="@style/titleText"
+            android:text="@string/offer_title_description" />
+
+        <EditText
+            android:id="@+id/offer_detail_description"
+            style="@style/editableText"
+            android:layout_marginBottom="14dp"
+            android:hint="@string/offer_hint_description" />
+
+        <TextView
+            android:id="@+id/offer_detail_titleAddress"
+            style="@style/titleText"
+            android:text="@string/offer_title_address" />
+
+        <EditText
+            android:id="@+id/offer_detail_address"
+            style="@style/titleText"
+            android:layout_marginBottom="14dp"
+            android:hint="@string/offer_hint_address" />
+
+        <TextView
+            android:id="@+id/offer_detail_titleTimeSlots"
+            style="@style/titleText"
+            android:text="@string/offer_title_timeslots" />
+
+        <LinearLayout
+            android:id="@+id/offer_detail_timeslotList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/offer_btn_add_timeslot"
+            style="@style/Button"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="24dp"
+            android:layout_width="168dp"
+            android:onClick="addTimeSlot"
+            android:text="@string/offer_btn_add_timeslot" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <Button
+                android:id="@+id/offer_btn_cancel"
+                style="@style/Button"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:onClick="cancelOffer"
+                android:text="@string/offer_btn_cancel" />
+
+            <Button
+                android:id="@+id/offer_btn_confirm"
+                style="@style/Button"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:onClick="confirmOffer"
+                android:text="@string/offer_btn_confirm" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

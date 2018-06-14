@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#82D8EF">
+
+    <LinearLayout
+        style="@style/VerticalLinearLayout"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_txt"
+            android:id="@+id/welcome_tv"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:paddingBottom="20dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_txt"
+            android:id="@+id/info_tv"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:paddingBottom="20dp"
+            android:textSize="20sp" />
+
+        <Button
+            style="@style/IconButton"
+            android:text="@string/fb_btn_txt"
+            android:id="@+id/fb_btn"
+            android:drawableLeft="@drawable/facebook"
+            android:background="#3B5998"
+            android:paddingRight="5dip"/>
+
+        <Button
+            style="@style/IconButton"
+            android:text="@string/gp_btn_txt"
+            android:id="@+id/gp_btn"
+            android:drawableLeft="@drawable/googleplus"
+            android:background="#DC4B39"/>
+
+        <Button
+            style="@style/IconButton"
+            android:text="@string/tw_btn_txt"
+            android:id="@+id/tw_btn"
+            android:drawableLeft="@drawable/twitter"
+            android:background="#00ACED"/>
+    </LinearLayout>
+</ScrollView>

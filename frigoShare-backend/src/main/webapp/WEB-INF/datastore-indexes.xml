@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+autoGenerate="false">
+    <datastore-index kind="Leftover" ancestor="false" source="manual">
+        <property name="offerer" direction="asc"/>
+        <property name="claimer" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>

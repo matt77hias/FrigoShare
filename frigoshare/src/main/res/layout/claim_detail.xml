@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vertical_list_claim_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/leftoverGroupColor"
+    android:orientation="vertical"
+    android:paddingBottom="1dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="1dp"
+    tools:context="com.frigoshare.MarketActivity">
+
+    <TextView
+        android:id="@+id/claim_detail_titleDescription"
+        style="@style/titleText"
+        android:text="@string/offer_title_description" />
+
+    <TextView
+        android:id="@+id/claim_detail_discription"
+        style="@style/regularText"
+        android:text="@string/offer_title_description" />
+
+    <View style="@style/horizontal_line" />
+
+    <TextView
+        android:id="@+id/claim_detail_titleOwner"
+        style="@style/titleText"
+        android:text="@string/offer_title_owner" />
+
+    <TextView
+        android:id="@+id/claim_detail_owner"
+        style="@style/regularText"
+        android:text="@string/offer_title_owner" />
+
+    <View style="@style/horizontal_line" />
+
+    <TextView
+        android:id="@+id/claim_detail_titleAddress"
+        style="@style/titleText"
+        android:text="@string/offer_title_address" />
+
+    <TextView
+        android:id="@+id/claim_detail_address"
+        style="@style/regularText"
+        android:text="@string/offer_title_address" />
+
+    <View style="@style/horizontal_line" />
+
+    <TextView
+        android:id="@+id/claim_detail_titleTimeSlots"
+        style="@style/titleText"
+        android:text="@string/offer_title_timeslots" />
+
+    <TextView
+        android:id="@+id/claim_detail_timeSlots"
+        style="@style/regularText"
+        android:text="@string/offer_title_timeslots" />
+
+    <View style="@style/horizontal_line" />
+
+    <TextView
+        android:id="@+id/claim_detail_titleClaimer"
+        style="@style/titleText"
+        android:text="@string/offer_title_claimer" />
+
+    <TextView
+        android:id="@+id/claim_detail_claimer"
+        style="@style/regularText"
+        android:text="@string/claim_detail_unclaimed" />
+
+
+</LinearLayout>

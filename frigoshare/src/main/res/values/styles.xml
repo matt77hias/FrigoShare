@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="VerticalLinearLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">@dimen/VerticalLinearLayout_padding</item>
+        <item name="android:background">#82D8EF</item>
+    </style>
+
+    <style name="IconButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/IconButton_layout_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:drawablePadding">@dimen/IconButton_drawablePadding</item>
+        <item name="android:paddingLeft">@dimen/IconButton_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/IconButton_paddingRight</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginBottom">@dimen/Button_layout_marginBottom</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/IconButton_layout_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/IconButton_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/IconButton_paddingRight</item>
+        <item name="android:background">#00ACED</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginBottom">@dimen/Button_layout_marginBottom</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="titleText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="regularText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+
+    </style>
+
+    <style name="editableText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="horizontal_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+package com.frigoshare.tracking;
+
+public enum Action {
+    VIEW_SWITCH,
+    CONFIRMATION, CANCELLATION, INPUT_REJECTED, INPUT_ACCEPTED,
+    SUCCESS, FAILURE, SEARCH,
+    ADDRESS_SET, VISIBILITY_SET, REFRESH_DATA;
+}
+

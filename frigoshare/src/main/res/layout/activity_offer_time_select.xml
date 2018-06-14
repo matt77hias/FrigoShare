@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82D8EF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.frigoshare.OfferTimeSelect">
+
+        <TextView
+            android:id="@+id/title_dateselect"
+            style="@style/titleText"
+            android:clickable="true"
+            android:onClick="selectDate"
+            android:text="@string/timeselect_title_date" />
+
+        <TextView
+            android:id="@+id/dateselect"
+            style="@style/regularText"
+            android:clickable="true"
+            android:onClick="selectDate"
+            android:text="@string/timeselect_title_date" />
+
+        <View style="@style/horizontal_line" />
+
+        <TextView
+            android:id="@+id/title_startTime"
+            style="@style/titleText"
+            android:clickable="true"
+            android:onClick="selectStartTime"
+            android:text="@string/timeselect_title_starttime" />
+
+        <TextView
+            android:id="@+id/startTime"
+            style="@style/regularText"
+            android:clickable="true"
+            android:onClick="selectStartTime"
+            android:text="@string/timeselect_title_starttime" />
+
+        <View style="@style/horizontal_line" />
+
+        <TextView
+            android:id="@+id/title_endTime"
+            style="@style/titleText"
+            android:clickable="true"
+            android:onClick="selectEndTime"
+            android:text="@string/timeselect_title_endtime" />
+
+        <TextView
+            android:id="@+id/endTime"
+            style="@style/regularText"
+            android:clickable="true"
+            android:onClick="selectEndTime"
+            android:text="End time" />
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel_timeslot"
+                style="@style/Button"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:onClick="cancelTimeslot"
+                android:text="@string/timeselect_btn_cancel" />
+
+            <Button
+                android:id="@+id/confirm_timeslot"
+                style="@style/Button"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:onClick="createTimeslot"
+                android:text="@string/timeselect_btn_confirm" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
