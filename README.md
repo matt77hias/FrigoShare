@@ -1,5 +1,10 @@
 <img align="left" src="res/FrigoShare.png" height="120px"/>
 
+[![License][s1]][li]
+
+[s1]: https://img.shields.io/badge/licence-GPL%203.0-blue.svg
+[li]: https://raw.githubusercontent.com/matt77hias/FrigoShare/master/LICENSE.txt
+
 # [FrigoShare](https://play.google.com/store/apps/details?id=com.frigoshare)
 
 Course User Interfaces: [Android application](https://play.google.com/store/apps/details?id=com.frigoshare) with Google App Engine backend that allows students to share (food) leftovers.
