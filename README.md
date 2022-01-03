@@ -20,9 +20,9 @@ Team [anarCHI](https://anarchikul.wordpress.com/):
 FrigoShare is an [Android application](https://play.google.com/store/apps/details?id=com.frigoshare) using Google App Engine as backend that allows people to share (food) leftovers with friends, instead of throwing them away or noticing something living in your fridge.
 
 <p align="center">
-<img src="res/Main.png" width="275">
-<img src="res/Create.png" width="275">
-<img src="res/Search.png" width="275">
+<img src="res/Main.png" width="270">
+<img src="res/Create.png" width="270">
+<img src="res/Search.png" width="270">
 </p>
 
 ## Dependencies
